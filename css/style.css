@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a,
+p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --cs-primary: #222222;
+    --cs-text: #656565;
+    --cs-accesnt: #18BA60;
+    --cs-white: #fff;
+    --cs-blue: #075FB8;
+}
+
+/* h1 {
+    font-size: 80px;
+    font-weight: 800;
+} */
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--cs-primary);
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--cs-text);
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--cs-text);
+}
+
+.cp60 {
+    padding: 30px 15px;
+}
+
+hr {
+    color: #EEEEEE;
+}
+
+/* header */
+/* .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+    padding: 0px 15px;
+}
+
+.nav-item a {}
+
+.navbar-nav .nav-item.active .nav-link {
+    font-weight: 500;
+} */
+
+
+.fund {
+
+    padding: 40px;
+
+    border: 1px solid #DFDFDF;
+
+    width: 90%;
+
+    margin: auto;
+
+    margin-top: 40px;
+}
+
+.fund h3 {
+
+    font-size: 18px;
+}
+
+.fund p {
+
+    font-size: 14px;
+
+    width: 30%;
+
+    padding: 15px 0px;
+
+    line-height: 21px;
+}
+
+.fund form input {
+
+    border-radius: 0;
+
+    margin-bottom: 15px;
+}
+
+.fund form input::placeholder {
+    font-size: 12px;
+    color: #B1B1B1;
+}
+
+.fund form button {
+    border-radius: 0;
+    background-color: var(--cs-accesnt);
+    color: var(--cs-white);
+    font-size: 12px;
+    padding: 9px 12px;
+}
+
+.fund form .form-check {
+    padding: 10px 0px 0px 0px;
+}
+
+.fund form .form-check label {
+    font-size: 14px;
+    color: #656565;
+}
+
+.check {
+    padding-left: 25px;
+}
+
+.fund form .form-control:focus {
+    background-color: #fff;
+    border-color: #000;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    border-color: #000;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* law_box */
+.law_box{
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.law_box img{
+    width: 64px;
+}
+
+.law_box h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin: 15px 0px;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+
+.debt_collect_box{
+    margin-top: 30px;
+}
+
+.debt_collect_box .r2{
+    margin-top: 30px;
+}

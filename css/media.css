@@ -1,0 +1,31 @@
+@media(max-width:767px) {
+    .cp60{
+        padding: 20px 15px;
+    }
+    .debt_inavlidation{
+        padding: 0px 15px;
+    }
+
+    .fund {
+        padding: 30px;
+        width: auto;
+    }
+
+    .fund p {
+        width: auto;
+    }
+
+    .law_box{
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .law_box h3{
+        padding: 0;
+        margin-bottom: 8px;
+    }
+
+    .debt_collect_box .r2 {
+        margin-top: 0;
+    }
+}
