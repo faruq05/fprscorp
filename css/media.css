@@ -5,18 +5,6 @@
 }
 
 @media(max-width:767px){
-    .bbpx{
-        width: 50%;
-    }
-}
-
-@media(max-width:575px){
-    .bbpx{
-        width:100%;
-    }
-}
-
-@media(max-width:767px) {
     .cp60{
         padding: 20px 15px;
     }
@@ -45,5 +33,15 @@
 
     .debt_collect_box .r2 {
         margin-top: 0;
+    }
+
+    .bbpx{
+        width: 50%;
+    }
+}
+
+@media(max-width:575px){
+    .bbpx{
+        width:100%;
     }
 }
