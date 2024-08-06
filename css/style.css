@@ -57,7 +57,7 @@ p {
 }
 
 hr {
-    color: #EEEEEE;
+    color: #00000070;
 }
 
 /* header */
@@ -72,7 +72,9 @@ hr {
     font-weight: 500;
 } */
 
-
+.debt_inavlidation{
+    padding-top: 0px;
+}
 .fund {
 
     padding: 40px;
@@ -84,10 +86,11 @@ hr {
     margin: auto;
 
     margin-top: 40px;
+
+    background-color: #00000037;
 }
 
 .fund h3 {
-
     font-size: 18px;
 }
 
@@ -116,6 +119,7 @@ hr {
 
 .fund form button {
     border-radius: 0;
+    border:none;
     background-color: var(--cs-accesnt);
     color: var(--cs-white);
     font-size: 12px;
@@ -150,7 +154,7 @@ hr {
 /* law_box */
 .law_box{
     text-align: center;
-    padding: 0px 40px;
+    padding: 0;
 }
 
 .law_box img{
@@ -158,12 +162,12 @@ hr {
 }
 
 .law_box h3{
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 600;
     color: #000;
-    margin: 15px 0px;
-    line-height: 30px;
-    padding: 0px 20px;
+    margin: 15px 0px 10px 0px;
+    line-height: 25px;
+    padding: 0px;
 }
 
 .debt_collect_box{
