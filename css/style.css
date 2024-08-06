@@ -96,13 +96,13 @@ hr {
 
 .fund p {
 
-    font-size: 14px;
+font-size: 14px;
 
-    width: 30%;
+width: auto;
 
-    padding: 15px 0px;
+padding: 15px 0px;
 
-    line-height: 21px;
+line-height: 21px;
 }
 
 .fund form input {
