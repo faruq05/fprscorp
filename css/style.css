@@ -124,6 +124,11 @@ hr {
     color: var(--cs-white);
     font-size: 12px;
     padding: 9px 12px;
+    transition: .2s all ease-in-out;
+}
+
+.fund form button:hover{
+    background-color: #036f33;
 }
 
 .fund form .form-check {
